@@ -1,0 +1,42 @@
+header{
+    padding: 400px;
+    background-color: rgb(169, 113, 221);
+    color: white;
+    text-align: center;
+}
+body{
+    margin: 0;
+    background-color:rgb(166, 105, 222) ;
+}
+nav{
+    padding: 20px;
+    background-color:rgb(186, 157, 212);
+    margin-top: 10px;
+    text-align: center;
+}
+nav a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+table{
+    border: solid rgb(196, 184, 207);
+    background-color: rgb(102, 90, 114)
+    text-align=center;
+    border-collapse: collapse;
+    width: 600px;
+    height: 200px;
+}
+hr{
+    color: rgb(53, 50, 56);
+}
+a{
+    color: black;
+    text-decoration: underline;
+}
+span{
+    text-decoration: underline;
+}
+audio{
+    
+}

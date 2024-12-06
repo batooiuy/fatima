@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Multimedia in HTML</title>
+</head>
+<style>
+.audio{
+    width: 250px;
+}
+.tabel{
+        background-color: blanchedalmond;
+        border: solid black;
+        border-radius: 20px;
+        padding: 30px;
+        margin: 0 auto;
+        width: 800px;
+        height: 300px;
+        box-shadow: 10px 10px 15px black;
+}
+</style>
+<body style="background-color: aliceblue;">
+    <DIV>
+      <b><em><h2>TABEL</h2></em></b>
+        <table class="tabel">
+
+                    <th>MULTIMEDIA NAME</th>
+                    <th>DESCRIPTION</th>
+                    <th>MULTIMEDIA</th>
+
+
+            <tr>
+                <td>IMAGE</td>
+                 <td>NEW IMAGE</td>
+                 <td><img src="a.k pic.jpg" width="200px"></td>   
+            </tr>
+
+            <tr>
+            <td>NEW AUDIO</td>
+            <td>Some Audio</td>
+            <td>
+                <audio controls preload="metadata" muted autoplay class="audio">
+                <source src="akmp3.mp3" type="audio/mpeg">
+            </audio>
+        </td>
+
+            <tr>
+           </tr>
+           <td>VIDEO</td>
+           <td>Some Video  </td>
+           <td> 
+            <video controls preload="metadata" autoplay width="200px" height="100px">
+            <source src="video a.k.mp4">
+           </video>
+           </td>
+
+            </tr>
+        </table>
+
+           
+    </DIV>
+    
+</body>
+</html>

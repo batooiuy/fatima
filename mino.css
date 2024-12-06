@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(133, 133, 26);
+    color: black;
+}
+ul {
+    display: flex;
+    display: left;
+}
+li{
+    padding: 10px;
+}
+ul, a{
+    text-decoration: none;
+    list-style-type: none;
+    color: aliceblue;
+    
+}
+.navbar{
+    background-color: black;
+    
+}
